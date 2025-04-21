@@ -14,7 +14,6 @@ You can interact with the agent via:
 
 
 
-
 # 🚀 Features
 
 Check how strong your password is.
@@ -22,6 +21,14 @@ Check how strong your password is.
 Generate secure passwords with control over length, symbols, numbers, and uppercase letters.
 
 Natural language interface powered by LangChain and OpenAI.
+
+
+## 🎥 Demo
+
+Here’s a quick look at the app in action:
+
+![Demo](./demo.gif)
+
 
 # 🧰 Tech Stack
 LangChain
