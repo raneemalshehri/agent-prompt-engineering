@@ -37,23 +37,27 @@ Make sure to set your OpenAI API key in the .env file!
 
 # 🧪 Example Usage
 agent.run("Is 'password123' secure?")
-# Output: Weak password.
+## Output: Weak password.
 
 agent.run("Generate a strong password for my banking website.")
-# Output: e.g. "K8#sP2l!9qTz"
+## Output: e.g. "K8#sP2l!9qTz"
 
 agent.run("I need a 16-character password without symbols.")
-# Output: e.g. "fR8zH2kL9mQwTuXe"
+## Output: e.g. "fR8zH2kL9mQwTuXe"
 
 agent.run("Is 'Tr0ub4dor&3' a good password?")
-# Output: Strong password 💪
+## Output: Strong password 💪
 
 
 # 📁 File Structure
 ├── app.py               # Streamlit app
+
 ├── password_agent.ipynb  # Main notebook with LangChain agent and tools
+
 ├── .env                  # Environment file to store OpenAI API key
+
 └── README.md             # Project documentation
+
 
 # 📝 How to Run
 1. Clone the repository:
@@ -74,6 +78,6 @@ OPENAI_API_KEY=your-api-key
 4. Run the agent:
 ```bash
 streamlit run app.py
-``
+
 
 
