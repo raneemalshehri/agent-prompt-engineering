@@ -96,5 +96,4 @@ streamlit run app.py
 
 # Credits
  ❤ Made by Raneem Alshehri
-Uses LangChain, Streamlit, and OpenAI API
 
