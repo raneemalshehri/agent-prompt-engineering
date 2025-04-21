@@ -56,13 +56,14 @@ agent.run("Is 'Tr0ub4dor&3' a good password?")
 
 
 # 📁 File Structure
+```bash
 agent-prompt-engineering/
 ├── app.py                  # Streamlit app interface
 ├── password_agent.ipynb    # Main notebook with LangChain agent and tools
 ├── .env                    # Environment file (should not be pushed)
 ├── .gitignore              # Ignores .env and other unnecessary files
 └── README.md               # Project documentation
-
+```
 
 
 # 📝 How to Run
