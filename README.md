@@ -1,21 +1,27 @@
 # 🔐 Password Agent with LangChain + Streamlit
 
-This project is a secure password utility powered by LangChain and OpenAI, wrapped in a user-friendly Streamlit app. It can:
+A smart password assistant powered by LangChain and OpenAI. This project provides two key tools:
 
-✅ Evaluate password strength
+✅ Password Strength Checker – evaluates how secure a password is.
 
-🔐 Generate strong, customizable passwords
+🔐 Password Generator – creates strong passwords with customizable options.
 
-The LangChain agent selects the appropriate tool based on your natural language input.
+You can interact with the agent via:
+
+🧠 Jupyter Notebook (LangChain agent logic)
+
+🌐 Streamlit App (User-friendly UI)
+
+
 
 
 # 🚀 Features
 
-Check Password Strength
-Get feedback on how secure your password is.
+Check how strong your password is.
 
-Generate Passwords
-Generate a strong password with optional settings: length, symbols, numbers, and uppercase letters.
+Generate secure passwords with control over length, symbols, numbers, and uppercase letters.
+
+Natural language interface powered by LangChain and OpenAI.
 
 # 🧰 Tech Stack
 LangChain
@@ -50,13 +56,13 @@ agent.run("Is 'Tr0ub4dor&3' a good password?")
 
 
 # 📁 File Structure
-├── app.py               # Streamlit app
+agent-prompt-engineering/
+├── app.py                  # Streamlit app interface
+├── password_agent.ipynb    # Main notebook with LangChain agent and tools
+├── .env                    # Environment file (should not be pushed)
+├── .gitignore              # Ignores .env and other unnecessary files
+└── README.md               # Project documentation
 
-├── password_agent.ipynb  # Main notebook with LangChain agent and tools
-
-├── .env                  # Environment file to store OpenAI API key
-
-└── README.md             # Project documentation
 
 
 # 📝 How to Run
@@ -78,6 +84,9 @@ OPENAI_API_KEY=your-api-key
 4. Run the agent:
 ```bash
 streamlit run app.py
+```
 
-
+# Credits
+ ❤ Made by Raneem Alshehri
+Uses LangChain, Streamlit, and OpenAI API
 
