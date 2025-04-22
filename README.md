@@ -95,5 +95,5 @@ streamlit run app.py
 ```
 
 # Credits
- ❤ Made by Raneem Alshehri
+ Made with ❤ by Raneem Alshehri
 
